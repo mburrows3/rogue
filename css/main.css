@@ -1,0 +1,107 @@
+/**** BASE STYLES ****/
+@font-face{
+	font-family: WisdomScript;
+	src:url("../fonts/wisdomscript-regular.otf") format("opentype");
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	line-height: 25px;
+	padding:15px;
+}
+
+/**** GRID ****/
+.full-width {
+	width:1200;
+	margin:0 auto;
+}
+
+.third-width{
+	width:28%;
+	height:180px;
+	float:left;
+	padding:30px;
+	padding-bottom:55px;
+	outline-color:grey;
+	outline-width:1px;
+	outline-style: solid;
+
+}
+/**** HEADER ****/
+header{
+	font-variant:small-caps;
+	font-weight:700;
+	line-height:23px;
+	height:100px;
+	margin:0 auto;
+}
+
+h1{
+	font-size:30px;
+	height:auto;
+	float:left;
+	margin:20px;
+	font-weight:700;
+}
+
+h1 span{
+	color:#77a466;
+}
+
+header nav{
+	float:right;
+	padding:46px 0;
+	font-weight: 700;
+}
+header nav ul{
+	margin:0;
+	padding:0;
+}
+header nav ul li{
+	color:#77a466;
+	font-size:14px;
+	padding:0 10px;
+	display:inline;
+}
+#hero-image{
+	width:100%;
+	border-top:3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+}
+
+/**** BODY ****/
+h2{
+	font-weight:bold;
+	color:#77a466;
+	font-size:18px;
+	font-variant:small-caps;
+	line-height:23px;
+}
+
+h3{
+	font-weight:bolder;
+	font-size:12px;
+	font-variant:small-caps;
+}
+p{
+	font-size:14px;
+	line-height:21px;
+	margin:px;
+}
+main ul li{
+	color:#77a466;
+}
+
+footer h4{
+	clear:both;
+	line-height:23px;
+	font-weight:bolder;
+	text-align:center;
+	font-variant:small-caps;
+}
+
+h4 span{
+	font-family:'WisdomScript';
+	color:#77a466;
+	font-variant:none;
+}
